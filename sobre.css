@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alexandria:wght@100..900&display=swap');
+
+body {
+    height: 50%;
+    box-sizing: border-box;
+    background-color: rgb(253,240,213);
+    color: black;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main_flexcont{
+    margin: 7%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.conteudo_mainflexcont{
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.titulo{
+    font-size: 52px;
+    font-family: "Alata", serif;
+    font-weight: 552;
+    font-style: normal;
+    letter-spacing: 3%;
+}
+
+.sub_titulo{
+    font-size: 30px;
+    font-family: "Abhaya Libre", serif;
+    font-weight: 250;
+    font-style: normal;
+    padding-top: 2%;
+}
+
+.text{
+    font-size: 27px;
+    font-family: "Abhaya Libre", serif;
+    font-weight: 250;
+    font-style: normal;
+    padding-top: 2%;
+}
+
+.text_2{
+    font-size: 27px;
+    font-family: "Abhaya Libre", serif;
+    font-weight: 250;
+    font-style: normal;
+    padding-top: 2%;
+}
+
+.imagem{
+    height: 30rem;
+    width: 30rem;
+    border-radius: 70%;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.3);
+    object-fit: cover;
+}
+
+.imagem_github{
+    width: 45px;
+}
+
+.botao{
+    font-size: 30px;
+    color: black;
+    text-decoration: none;
+    font-family: "Alexandria", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.botao:hover{
+    font-size: 40px;
+}
+
+.botao_inc{
+    display: flex;
+    justify-content: flex-end;
+    padding: 2% 2%;
+}
+
+.logos{
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+}
+
+
+@media(max-width:1080px) {  
+
+    .conteudo_mainflexcont{
+        width: auto;
+        flex-direction: column;
+    }
+
+    .imagem{
+        height: 60%;
+        width: 60%;
+        border-radius: 70%;
+        box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.3);
+        object-fit: cover;
+        
+    }
+
+    .botao_inc{
+        padding-right: 29%;
+    }
+
+    .text{
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .main_flexcont{
+        flex-direction: column;
+    }
+
+    .botao_inc{
+        display: flex;
+        justify-content: center;
+        padding: 0%;
+
+    }
+}

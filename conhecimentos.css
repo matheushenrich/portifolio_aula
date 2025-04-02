@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alexandria:wght@100..900&display=swap');
+
+body {
+    height: 90vh;
+    box-sizing: border-box;
+    background-color: rgb(253,240,213);
+    color: black;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+.main_flexcont{
+    margin: 7%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px;
+}
+
+.conteudo_mainflexcont{
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.titulo1{
+    font-size: 40px;
+    font-family: "Alata", serif;
+    font-weight: 552;
+    font-style: normal;
+}
+
+
+.htmlTexto{
+    font-size: 20px;
+    font-family: "Alata", serif;
+    font-weight: 250;
+    font-style: normal;
+    padding-top: 2%;
+}
+
+.titulo2{
+    font-size: 40px;
+    font-family: "Alata", serif;
+    font-weight: 552;
+    font-style: normal;
+    padding-top: 20%;
+}
+
+.pythonTexto{
+    font-size: 20px;
+    font-family: "Alata", serif;
+    font-weight: 250;
+    font-style: normal;
+    padding-top: 2%;
+}
+
+.htmlImage{
+    display: inline-block
+}
+
+.html {
+    display: flex; 
+    align-items: center; 
+}
+
+.python {
+    display: flex; 
+    align-items: center; 
+}
+
+.pyImagem{
+    display: inline-block;
+    padding-top: 120px;
+}
+
+.css{
+    display: flex; 
+    justify-content: flex-start; 
+    position: absolute; 
+    top: 10%; 
+    right: 7%; 
+    width: 40%; 
+    flex-direction: column;
+    
+}
+
+.cssImagem{
+    display: inline-block;
+    padding-top: 21%;
+}
+
+.titulo3{
+    font-size: 40px;
+    font-family: "Alata", serif;
+    font-weight: 552;
+    font-style: normal;
+    padding-top: 20%;
+}
+
+.cssTexto{
+    font-size: 20px;
+    font-family: "Alata", serif;
+    font-weight: 250;
+    font-style: normal;
+    padding-top: 2%;
+}
+
+.cssDiv{
+    display: flex;
+    gap: 1%;
+ }
+
+.sql{
+    display: flex; 
+    justify-content: flex-start; 
+    position: absolute; 
+    top: 10%; 
+    right: 17%; 
+    width: 30%; 
+    flex-direction: column;
+    padding-top: 15%;
+}
+
+.sqlImagem{
+    display: inline-block;
+    padding-top: 155px;
+}
+
+.titulo4{
+    font-size: 40px;
+    font-family: "Alata", serif;
+    font-weight: 552;
+    font-style: normal;
+    padding-top: 20%;
+}
+
+.sqlTexto{
+    font-size: 20px;
+    font-family: "Alata", serif;
+    font-weight: 250;
+    font-style: normal;
+    padding-top: 2%;
+}
+
+.sqlDiv{
+    display: flex;
+    gap: 1%;
+ }
+
+.conheci{
+    font-size: 52px;
+    font-family: "Alata", serif;
+    font-weight: 450;
+    font-style: normal;
+    letter-spacing: 3%;
+    position: absolute;
+    top: 0;
+    padding-left: 30%;
+    padding-top: 1%;
+}
+
+.botao{
+    font-size: 30px;
+    color: black;
+    text-decoration: none;
+    font-family: "Alexandria", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.botao:hover{
+    font-size: 50px;
+}
+
+.botao_inc{
+    display: flex;
+    justify-content: flex-end;
+    padding: 2% 2%;
+     }
+
+
+
+@media(max-width:1080px){
+
+    .conteudo_mainflexcont{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .sql{
+        flex-direction: column;
+        position: static;
+        width: auto;
+    }
+
+    .sqlDiv{
+        width: auto;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .sqlImagem{
+        padding: 0%;
+    }
+
+    .titulo3{
+        padding: 0%;
+    }
+
+    .css{
+        position: static;
+        flex-direction: column;
+        width: auto;
+    }
+
+    .cssDiv{
+        width: auto;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .cssImagem{
+        padding: 0%;
+    }
+
+    .pyImagem{
+        padding: 0%;
+    }
+
+    .titulo2{
+        padding: 0%;
+    }
+
+    .conheci{
+        font-size: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-left: 0%;
+        
+    }
+
+    .cabecalho_conhe{
+        display: flex;
+        flex-direction: column;
+    }
+
+
+
+}
