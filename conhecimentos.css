@@ -19,15 +19,14 @@ body {
     margin: 7%;
     display: flex;
     align-items: center;
-    justify-content: flex-start;
-    gap: 20px;
+
+
 }
 
 .conteudo_mainflexcont{
-    width: 600px;
     display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
 }
 
 .titulo1{
@@ -51,7 +50,6 @@ body {
     font-family: "Alata", serif;
     font-weight: 552;
     font-style: normal;
-    padding-top: 20%;
 }
 
 .pythonTexto{
@@ -59,7 +57,6 @@ body {
     font-family: "Alata", serif;
     font-weight: 250;
     font-style: normal;
-    padding-top: 2%;
 }
 
 .htmlImage{
@@ -78,23 +75,28 @@ body {
 
 .pyImagem{
     display: inline-block;
-    padding-top: 120px;
 }
 
-.css{
-    display: flex; 
-    justify-content: flex-start; 
-    position: absolute; 
-    top: 10%; 
-    right: 7%; 
-    width: 40%; 
+.box_direita{
+    display: flex;
     flex-direction: column;
-    
+    width: 50%;
+    gap: 20px;
 }
+
+.box_esquerda{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    gap: 20px;
+}
+
+
+
 
 .cssImagem{
-    display: inline-block;
-    padding-top: 21%;
+    
+    width: 8%;;
 }
 
 .titulo3{
@@ -102,7 +104,6 @@ body {
     font-family: "Alata", serif;
     font-weight: 552;
     font-style: normal;
-    padding-top: 20%;
 }
 
 .cssTexto{
@@ -116,22 +117,14 @@ body {
 .cssDiv{
     display: flex;
     gap: 1%;
+    align-items: center;
  }
 
-.sql{
-    display: flex; 
-    justify-content: flex-start; 
-    position: absolute; 
-    top: 10%; 
-    right: 17%; 
-    width: 30%; 
-    flex-direction: column;
-    padding-top: 15%;
-}
+
 
 .sqlImagem{
     display: inline-block;
-    padding-top: 120px;
+     
 }
 
 .titulo4{
@@ -160,11 +153,7 @@ body {
     font-family: "Alata", serif;
     font-weight: 450;
     font-style: normal;
-    letter-spacing: 3%;
-    position: absolute;
-    top: 0;
-    padding-left: 30%;
-    padding-top: 1%;
+
 }
 
 .botao{
@@ -177,20 +166,23 @@ body {
 }
 
 .botao:hover{
-    font-size: 50px;
+    font-size: 35px;
 }
 
-.botao_inc{
+.cabecalho_conhe{
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
     padding: 2% 2%;
+
      }
 
 
 
-@media(max-width:1080px){
+@media(max-width:1547px){
+
 
     .conteudo_mainflexcont{
+        width: auto;
         flex-direction: column;
         align-items: center;
     }
@@ -221,6 +213,11 @@ body {
         width: auto;
     }
 
+    .botao_inc{
+        justify-content: space-between;
+        padding: 2% 2%;
+         }
+
     .cssDiv{
         width: auto;
         justify-content: center;
@@ -249,9 +246,24 @@ body {
     }
 
     .cabecalho_conhe{
+        width: auto;
         display: flex;
-        flex-direction: column;
+        
+        
     }
+
+    .cssDiv{
+        display: flex;
+        gap: 1%;
+        justify-content: flex-start;
+     }
+
+     .sqlDiv{
+        display: flex;
+        gap: 1%;
+        justify-content: flex-start;
+
+     }
 
 
 
