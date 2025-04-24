@@ -125,6 +125,7 @@ body {
     }
 
     .main_flexcont{
+        padding-top: 5%;
         flex-direction: column;
     }
 

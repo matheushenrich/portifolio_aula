@@ -180,7 +180,6 @@ body {
 
 @media(max-width:1547px){
 
-
     .conteudo_mainflexcont{
         width: auto;
         flex-direction: column;
@@ -189,7 +188,7 @@ body {
 
     .sql{
         flex-direction: column;
-        position: static;
+ 
         width: auto;
     }
 
@@ -208,7 +207,7 @@ body {
     }
 
     .css{
-        position: static;
+
         flex-direction: column;
         width: auto;
     }
@@ -265,6 +264,26 @@ body {
 
      }
 
+     .htmlTexto{
+        width: auto;
+        padding: 0%;
+     }
 
+     .cssTexto{
+        width: auto;
+     }
 
+     .sqlTexto{
+        width: auto;
+     }
+
+     .pythonTexto{
+        width: auto;
+     }
+     .box_esquerda{
+        width: auto;
+     }
+     .box_direita{
+        width: auto;
+     }
 }
